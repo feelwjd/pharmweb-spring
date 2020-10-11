@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 @Mapper
-public interface LoginDAO {
+public interface Dao {
 
     void setPharmacy(Pharmacy pharmacy);
     Pharmacy getPharmacy(Login login);

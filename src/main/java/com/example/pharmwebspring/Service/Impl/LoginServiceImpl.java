@@ -1,6 +1,6 @@
 package com.example.pharmwebspring.Service.Impl;
 
-import com.example.pharmwebspring.DAO.LoginDAO;
+import com.example.pharmwebspring.DAO.Dao;
 import com.example.pharmwebspring.Model.Login;
 import com.example.pharmwebspring.Model.Pharmacy;
 import com.example.pharmwebspring.Model.User;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class LoginServiceImpl implements LoginService {
 
     @Autowired
-    private LoginDAO dao;
+    private Dao dao;
 
     @Override
     public void insertPharmacy(Pharmacy pharmacy) {
